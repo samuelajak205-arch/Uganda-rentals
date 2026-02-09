@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Uganda Rentals Application</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" id="loginBtn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Find Your Perfect Rental</h2>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search properties...">
+                <button type="submit">Search</button>
+            </form>
+            <div id="propertyList">
+                <!-- Properties will be displayed here -->
+            </div>
+        </section>
+        <section id="properties">
+            <h2>Property Management</h2>
+            <div id="propertyManagement">
+                <button id="addPropertyBtn">Add Property</button>
+                <div id="propertyOverview">
+                    <!-- Property details will go here -->
+                </div>
+            </div>
+        </section>
+        <section id="reviews">
+            <h2>User Reviews</h2>
+            <div id="reviewList">
+                <!-- Reviews will be displayed here -->
+            </div>
+        </section>
+        <section id="notifications">
+            <h2>Notifications</h2>
+            <div id="notificationList">
+                <!-- Notifications will be shown here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Uganda Rentals. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
